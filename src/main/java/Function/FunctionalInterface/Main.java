@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package Function.FunctionalInterface;
 
 import java.util.Random;
 import java.util.function.BiFunction;

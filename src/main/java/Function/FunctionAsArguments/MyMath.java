@@ -1,10 +1,10 @@
-package FunctionAsArguments;
+package Function.FunctionAsArguments;
 
 import java.util.function.BiFunction;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File FunctionAsArguments.MyMath.java: JavaFunctionalProgramming-LambdasAndStreams
+ * @File MyMath.java: JavaFunctionalProgramming-LambdasAndStreams
  * @CreationDate 6/17/2022 6:29 PM
  */
 public class MyMath {

@@ -1,8 +1,8 @@
-package FunctionAsData;
+package Function.FunctionAsData;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File FunctionAsData.DataLoader.java: JavaFunctionalProgramming-LambdasAndStreams
+ * @File DataLoader.java: JavaFunctionalProgramming-LambdasAndStreams
  * @CreationDate 6/16/2022 5:07 PM
  */
 public class DataLoader {

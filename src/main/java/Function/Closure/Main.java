@@ -1,12 +1,10 @@
-package Closure;
+package Function.Closure;
 
-import FunctionAsReturnType.NoArgsFunction;
-
-import java.util.function.Function;
+import Function.FunctionAsReturnType.NoArgsFunction;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File FunctionAsArguments.Main.java: JavaFunctionalProgramming-LambdasAndStreams
+ * @File Main.java: JavaFunctionalProgramming-LambdasAndStreams
  * @CreationDate 6/17/2022 6:28 PM
  */
 public class Main {

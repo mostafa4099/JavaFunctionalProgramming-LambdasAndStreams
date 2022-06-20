@@ -1,8 +1,8 @@
-package FunctionAsData;
+package Function.FunctionAsData;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File FunctionAsData.Person.java: JavaFunctionalProgramming-LambdasAndStreams
+ * @File Person.java: JavaFunctionalProgramming-LambdasAndStreams
  * @CreationDate 6/16/2022 5:06 PM
  */
 public class Person {
