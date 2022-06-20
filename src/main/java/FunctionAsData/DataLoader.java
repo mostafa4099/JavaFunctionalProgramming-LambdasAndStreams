@@ -9,7 +9,9 @@ public class DataLoader {
     public final NoArgsFunction<Person> loadPerson;
 
     public DataLoader(Boolean isDev) {
-        this.loadPerson = isDev? this::loadRealPerson:this::loadFakePerson;
+        //isDev==true load real person data in loadPerson
+        //isDev==false load fake person data in loadPerson
+        this.loadPerson = isDev ? this::loadRealPerson:this::loadFakePerson;
     }
 
     private Person loadRealPerson () {

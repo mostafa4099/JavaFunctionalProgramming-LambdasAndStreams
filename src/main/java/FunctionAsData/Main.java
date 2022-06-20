@@ -7,7 +7,7 @@ package FunctionAsData;
  */
 public class Main {
     public static void main(String[] args) {
-        final Boolean isDev = false;
+        final Boolean isDev = true;
         DataLoader loader = new DataLoader(isDev);
 
         System.out.println(loader.loadPerson.apply());
