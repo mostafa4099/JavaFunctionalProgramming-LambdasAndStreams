@@ -1,11 +1,11 @@
-package Stream.Planet;
+package Stream.Stream.Planet;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File Stream.Planet.SolarSystem.java: LambdasAndStreams
+ * @File Stream.Stream.Planet.SolarSystem.java: LambdasAndStreams
  * @CreationDate 6/15/2022 5:27 PM
  */
 public class SolarSystem {

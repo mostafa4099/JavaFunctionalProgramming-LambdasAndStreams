@@ -1,8 +1,8 @@
-package Stream.Planet;
+package Stream.Stream.Planet;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File Stream.Planet.Planet.java: LambdasAndStreams
+ * @File Stream.Stream.Planet.Planet.java: LambdasAndStreams
  * @CreationDate 6/15/2022 5:24 PM
  */
 public class Planet {

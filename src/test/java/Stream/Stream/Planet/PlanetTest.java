@@ -1,4 +1,4 @@
-package Stream.Planet;
+package Stream.Stream.Planet;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File Stream.Planet.PlanetTest.java: LambdasAndStreams
+ * @File Stream.Stream.Planet.PlanetTest.java: LambdasAndStreams
  * @CreationDate 6/15/2022 5:29 PM
  */
 class PlanetTest {

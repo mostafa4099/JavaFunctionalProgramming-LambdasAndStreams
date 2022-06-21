@@ -1,4 +1,4 @@
-package Stream;
+package Stream.Stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File Stream.Main.java: LambdasAndStreams
+ * @File Stream.Stream.Main.java: LambdasAndStreams
  * @CreationDate 6/15/2022 1:09 PM
  */
 public class Main {

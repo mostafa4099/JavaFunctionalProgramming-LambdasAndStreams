@@ -1,11 +1,11 @@
-package Stream.Planet;
+package Stream.Stream.Planet;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
  * @author Md. Golam Mostafa | mostafa.sna@gmail.com
- * @File Stream.Planet.PlanetUtils.java: LambdasAndStreams
+ * @File Stream.Stream.Planet.PlanetUtils.java: LambdasAndStreams
  * @CreationDate 6/15/2022 5:25 PM
  */
 public class PlanetUtils {
