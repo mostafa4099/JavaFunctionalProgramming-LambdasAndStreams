@@ -24,7 +24,7 @@ public class Main {
                 evenList.add(intList.get(i));
             }
         }
-        System.out.println(evenList);
+        System.out.println(evenList); //[2, 4, 6]
 
         //filter function of stream also return new processed stream
         //filter() used for find out elements based on some criteria.
@@ -35,7 +35,7 @@ public class Main {
         Predicate<Integer> isOdd = x -> x % 2 != 0;
 //        oddList = intList.stream().filter(x -> x % 2 != 0).collect(Collectors.toList());
         oddList = intList.stream().filter(isOdd).collect(Collectors.toList());
-        System.out.println(oddList);
+        System.out.println(oddList); //[1, 3, 5]
 
         String[] strArr = {"functional", "programming", "is", "cool"};
         List<String> strList = Arrays.asList(strArr);
@@ -45,7 +45,7 @@ public class Main {
         Predicate<String> isLengthGreater5 = str -> str.length() > 5;
 //        filteredStrList = strList.stream().filter(str -> str.length() > 5).collect(Collectors.toList());
         filteredStrList = strList.stream().filter(isLengthGreater5).collect(Collectors.toList());
-        System.out.println(filteredStrList);
+        System.out.println(filteredStrList); //[functional, programming]
 
         //High order function
         //Function as return function
@@ -55,9 +55,9 @@ public class Main {
         Predicate<String> isLongerThan3 = createLengthChecker.apply(3);
 
         filteredStrList = strList.stream().filter(isLongerThan5).collect(Collectors.toList());
-        System.out.println(filteredStrList);
+        System.out.println(filteredStrList); //[functional, programming]
 
         filteredStrList = strList.stream().filter(isLongerThan3).collect(Collectors.toList());
-        System.out.println(filteredStrList);
+        System.out.println(filteredStrList); //[functional, programming, cool]
     }
 }

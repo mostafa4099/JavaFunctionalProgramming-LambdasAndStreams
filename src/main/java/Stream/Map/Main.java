@@ -21,7 +21,7 @@ public class Main {
         for (int i = 0; i < intList.size(); i++) {
             doubleList.add(intList.get(i) * 2);
         }
-        System.out.println(doubleList);
+        System.out.println(doubleList); //[2, 4, 6, 8, 10]
 
         //We can convert list to stream
         //map() function of stream return new processed stream
@@ -32,6 +32,6 @@ public class Main {
         Function<Integer, Integer> tripleFunc = x -> x * 3;
 //        tripleList = intList.stream().map(x -> x * 3).collect(Collectors.toList());
         tripleList = intList.stream().map(tripleFunc).collect(Collectors.toList());
-        System.out.println(tripleList);
+        System.out.println(tripleList); //[3, 6, 9, 12, 15]
     }
 }
