@@ -12,7 +12,9 @@ public class Main {
     public static void main(String[] args) {
         //Closure
         NoArgsFunction<NoArgsFunction<String>> createClosureGreeter = () -> {
-            //name variable accessible from return function but not outside of createClosureGreeter and return function which known as Closure
+            // name variable accessible from return function
+            // but not outside of createClosureGreeter
+            // and return function which known as Closure
             String name = "Mostafa";
             return () -> "Hello " + name;
         };
